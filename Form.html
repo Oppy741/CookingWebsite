@@ -1,0 +1,88 @@
+<!DOCTYPE html 
+
+<html lang="en">
+    <!--
+Quick Notes: 
+Form uses the <form> and input controls
+    form is put in the body 
+    input controls are: 
+            text (text control)
+            password, email, telephone, date(controls for each of those things listed)
+            textarea(text area control)
+            checkbox (make a check box)
+            radio (radio button controls use name tag with the radio button(name="") and you need multiple radio buttons)
+            submit (submit button)
+            reset (reset button)
+            you use those controls by: 
+            <input type=""> in the form 
+            type each of those keywords in the "" area 
+            text area is its own separate element and use col="" and row=""
+            -->
+            <!-- SUBMITTING A FORM
+                  Get method- appends the name value paires to the url in the action attribute 
+                  post method - sends a separate data file with the name-value pairs to the url ( or email address indicated in the action file)
+                  Use like this:
+                  <form action="http://www.google.com" or action="template.html"
+                  then if you want it to submit data to google you use this
+                  form method="get" action="http://www.google.com">
+
+                  with each of the inputs you need to give it a name 
+                  example: 
+                  <label> what to submit: </label> <input name="input" type="text">
+                    -->
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale 1.0">         
+        <link rel="stylesheet" href="css/styles.css"> <!--link to style sheet -->
+        <link rel="icon" sizes="192x192" href="images/android-chrome-192.png"> <!--Favicon NEED TO CHANGE-->
+        <link rel="stylesheet" href="css/styles.css" media="screen (max-width: 480px)">
+        <link rel="stylesheet" href="css/styles.css" media="print">  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap" rel="stylesheet">
+        <title>
+            Home
+        </title>
+     </head>
+
+    <body>
+        <h1> My form</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="cookingtabel.html">Cooking Table</a> </li>
+                <li><a href="video.html">Video</a> </li>
+                <li><a href="Form.html"> Form Page</a> </li>
+            </ul>
+            </nav>
+     <form method="get" action ="submit.html">
+        <fieldset>
+            <legend>List Your Favorite things.</legend>
+        <ul>
+        <li><label>what is your favorite type of food?  &nbsp; &nbsp;</label><input type="text"></li>
+         <li><label>what is your most favorite dish of all time ?  &nbsp; &nbsp;</label><input type="text"></li>
+         <li><label>what is your favorite holiday food? &nbsp; &nbsp; </label><input type="text"></li>
+     
+    </ul>
+</fieldset>
+<fieldset>
+    <legend>List Your Least Favorite Things. </legend>
+    <ul>
+        <li><label>what is your least favorite dish?  &nbsp; &nbsp;</label><input type="text"></li>
+        <li><label>what is your least favorite drink?  &nbsp; &nbsp;</label><input type="text"></li>
+        <li><label>what is your least favorite place to go to eat? &nbsp; &nbsp;</label><input type="text"></li>
+     
+</ul>
+</fieldset>
+    <input type="submit">
+    <input type="reset">
+
+     </form>
+   
+
+    </body>
+
+</html>

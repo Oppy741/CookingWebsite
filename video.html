@@ -1,0 +1,65 @@
+<!DOCTYPE html 
+<html lang="en">
+    <!--Video and audio
+        audio- <audio> 
+            controls- <audio controls>
+            then you need a source and a type 
+            then you should put a phrase like "browser not supported" outside of the source to make sure they know there browser isnt supported or the video is not working.
+             Some other controls are loop, autoplay, preload
+            example:
+            <audio controls>
+                <source src="text.mp3" type="audio/mpeg">
+                <p>Your browser does not support the audio tag</p>
+                --------------------------------------------------
+               Video files--
+               Videos will have height and width attributes. 
+               video tag- <video>
+                controls- controls are the same as the audio button.
+                the video button will have a source then a src linking the video to your page. 
+                example:
+                <video width="320" height = "240" controls="controls">
+                    <sources src="advertisements.mp4" type = "video/mp4"?
+                    <p> your browser does not support html5 video element. </p>
+                </video> 
+
+
+            -->
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale 1.0">         
+        <link rel="stylesheet" href="css/styles.css"> <!--link to style sheet -->
+        <link rel="icon" sizes="192x192" href="images/android-chrome-192.png"> <!--Favicon NEED TO CHANGE-->
+        <link rel="stylesheet" href="css/styles.css" media="screen (max-width: 480px)">
+        <link rel="stylesheet" href="css/styles.css" media="print">  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap" rel="stylesheet">
+        <title>
+            Home
+        </title>
+     </head>
+    <body>
+        <header>   
+            Cooking video
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="cookingtabel.html">Cooking Table</a> </li>
+                <li><a href="video.html">Video</a> </li>
+                <li><a href="Form.html"> Form Page</a> </li>
+            </ul>
+            </nav>
+        <main>
+            <video width="320" height="240" controls="controls">
+                <source src="media/night.webm" type="video/webm">
+                <p>Your browser does not support this video </p>
+            </video>
+        </main>
+        
+    </body>
+
+</html>

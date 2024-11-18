@@ -1,0 +1,144 @@
+h1 {
+    text-align: center; 
+    
+
+    
+}
+
+header {
+    font-size:larger;
+    text-align: center;
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+      "ROND" 0;
+}
+nav a {
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+      "ROND" 100;
+}
+nav ul  {
+   
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    background-color: darkGRAY; 
+    text-align: center;
+    list-style: none;
+}
+body{
+    background-color: gray; 
+
+}
+form li {
+list-style:none; 
+
+}
+td {
+    border: 1px solid black;
+}
+th {
+    border: 1px solid black;
+   
+}
+input {
+   
+    display: flex;
+}
+
+@media screen and (min-width: 480px  ){
+    nav li {
+        font-size: 1.5em; 
+        padding-top: 0.5em; 
+        padding-bottom: 0.5em;
+        padding-left: 1.5em; 
+        padding-right: 1.5em; 
+        
+
+    }
+    nav li a:hover {
+        color:white; 
+        background-color: gray;
+    }
+    video {
+        height:75%;
+        width:75%; 
+
+    }
+}
+@media screen and (min-width: 1000px) {
+    header{
+        font-size: 3em; 
+    }
+    h2 {
+       
+        font-size: 2em; 
+
+    }
+    p {
+        font-size: 1.5em; 
+    }
+    nav li {
+        font-size: 1.5em; 
+        padding-top: 0.5em; 
+        padding-bottom: 0.5em;
+        padding-left: 1.5em; 
+        padding-right: 1.5em; 
+     
+
+
+    }
+    
+    nav li a:hover {
+        color:white; 
+        background-color: gray;
+    }
+    nav li {
+        display: inline-block; 
+
+
+
+    }
+    video {
+        width:100%;
+        height: 100%;
+        
+    }
+    .article {
+        display: block;
+       
+
+    }
+    .picture {
+       
+        display:flex; 
+        column-count: 4; 
+        column-gap: 50px;
+        column-rule: 1px dotted; 
+        align-items: center;
+
+
+    }
+    fieldset {
+        display:flex;
+        justify-content: center;
+        
+    }
+    table{
+
+        justify-content: center;
+        border: 1px solid black;
+       
+    
+     
+    
+    }
+   
+   
+}
